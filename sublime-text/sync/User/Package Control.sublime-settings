@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"objc .strings syntax language"
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"Find++",
+		"FindKeyConflicts",
+		"Github Color Theme",
+		"HexViewer",
+		"HTML-CSS-JS Prettify",
+		"HTML5",
+		"INI",
+		"JsFormat",
+		"LaTeXTools",
+		"objc .strings syntax language",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"Terminal",
+		"Theme - Soda",
+		"VAlign"
+	]
+}
