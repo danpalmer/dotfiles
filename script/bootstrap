@@ -137,6 +137,12 @@ install_dotfiles () {
   done
 }
 
+restore_application_configuration() {
+  info 'restoring app configs'
+
+  mackup restore
+}
+
 setup_gitconfig
 install_dotfiles
 
@@ -151,6 +157,8 @@ then
     fail "error installing dependencies"
   fi
 fi
+
+restore_application_configuration
 
 echo ''
 echo '  All installed!'
