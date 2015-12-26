@@ -6,3 +6,10 @@ directory = sync
 [applications_to_sync]
 bartender
 karabiner
+caffeine
+charles
+dash
+soulver
+transmission
+vlc
+xcode
