@@ -2,7 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"objc .strings syntax language"
 	],
 	"installed_packages":
 	[
@@ -17,7 +16,6 @@
 		"INI",
 		"JsFormat",
 		"LaTeXTools",
-		"objc .strings syntax language",
 		"Package Control",
 		"Sass",
 		"SideBarEnhancements",
