@@ -1,0 +1,37 @@
+config defaultToCurrentScreen true
+
+# Move control focus to different windows
+bind        right:cmd;alt    focus right
+bind        left:cmd;alt     focus left
+
+# Left/Right Small
+alias leftSmall push left bar-resize:screenSizeX/4
+alias rightSmall push right bar-resize:screenSizeX/4
+
+# Left/Right Half
+alias leftHalf  push left bar-resize:screenSizeX/2
+alias rightHalf push right bar-resize:screenSizeX/2
+
+# Left/Right Large
+alias leftLarge push left bar-resize:screenSizeX/1.25
+alias rightLarge push right bar-resize:screenSizeX/1.25
+
+# Full
+alias full push up bar-resize:screenSizeY
+
+# Bind Keys
+bind     pad1:ctrl;alt;cmd ${leftSmall}
+bind pad3:ctrl;alt;cmd ${rightSmall}
+bind     pad4:ctrl;alt;cmd ${leftHalf}
+bind pad6:ctrl;alt;cmd ${rightHalf}
+bind     pad7:ctrl;alt;cmd ${leftLarge}
+bind pad9:ctrl;alt;cmd ${rightLarge}
+bind pad8:ctrl;alt;cmd ${full}
+
+bind     1:ctrl;alt;cmd ${leftSmall}
+bind 3:ctrl;alt;cmd ${rightSmall}
+bind     4:ctrl;alt;cmd ${leftHalf}
+bind 6:ctrl;alt;cmd ${rightHalf}
+bind     7:ctrl;alt;cmd ${leftLarge}
+bind 9:ctrl;alt;cmd ${rightLarge}
+bind 8:ctrl;alt;cmd ${full}

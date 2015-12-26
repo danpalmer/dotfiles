@@ -1,0 +1,8 @@
+[storage]
+engine = file_system
+path = .dotfiles/apps/
+directory = sync
+
+[applications_to_sync]
+bartender
+karabiner
