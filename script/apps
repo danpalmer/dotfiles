@@ -1,0 +1,38 @@
+restore_application_configuration() {
+  info "restoring app configs"
+
+  mackup restore
+}
+
+run_installers() {
+  find . -name install | while read installer ; do
+    
+    name=$(basename $(dirname ${installer}))
+
+    source "${installer}"
+
+    if [ $? -eq 0 ]; then
+      success "${name} installed"
+    else
+      fail "${name} install failed"
+    fi
+
+  done
+}
+
+install_homebrew_dependencies() {
+  if [ "$(uname -s)" != "Darwin" ]; then
+    info "not on OS X, skipping"
+  fi
+
+  info "installing homebrew dependencies"
+
+  brew update >/dev/null
+  brew bundle >/dev/null
+
+  if [ $? -eq 0 ]; then
+    success "dependencies installed"
+  else
+    fail "error installing dependencies"
+  fi
+}

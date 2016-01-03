@@ -4,7 +4,7 @@
 # yeah, let's do that.
 
 info "running software update"
-sudo softwareupdate -i -a >/dev/null
+sudo softwareupdate -i -a 2&1>/dev/null
 
 if [ $? -eq 0 ]; then
   success "software update done"
@@ -13,4 +13,4 @@ else
 fi
 
 info "setting OS X defaults"
-sudo "$BASE_PATH/osx/set-defaults.sh"
+source "$BASE_PATH/osx/set-defaults"
