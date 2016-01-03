@@ -14,3 +14,5 @@ if [ ! -h "$USER_PACKAGE" ]; then
     rm -rf "$USER_PACKAGE"
     ln -s "$BASE_PATH/sublime-text/sync/User" "$USER_PACKAGE"
 fi
+
+sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl
