@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+
+sudo -v
+
+SOURCE="${BASH_SOURCE[0]}"
+DIR="$( dirname "$SOURCE" )"
+while [ -h "$SOURCE" ]
+do
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+  DIR="$( cd -P "$( dirname "$SOURCE"  )" && pwd )"
+done
+# DIR is now pointing to the script dir, BASE_PATH is one level up
+BASE_PATH="$(cd "$DIR/.." && pwd)"
+
+source "$BASE_PATH/script/common"
+
+source "$(git --exec-path)/git-sh-setup"
+
+require_clean_work_tree "pull -r"
+
+info "pulling upstream changes"
+git pull -r -q
+
+info "pushing changes"
+git push -q
+
+info "re-bootstrapping"
+exec script/bootstrap
