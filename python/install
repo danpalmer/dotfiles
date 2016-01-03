@@ -1,0 +1,7 @@
+pip install -r requirements-common.txt
+pip install -r requirements-2.txt
+success "installed python 2.x packages"
+
+pip3 install -r requirements-common.txt
+pip3 install -r requirements-3.txt
+success "installed python 3.x packages"

@@ -11,9 +11,3 @@ if [[ -r /usr/local/bin/virtualenvwrapper.sh ]]; then
 else
     echo "WARNING: Can't find virtualenvwrapper.sh"
 fi
-
-pip install -r requirements-common.txt
-pip install -r requirements-2.txt
-
-pip3 install -r requirements-common.txt
-pip3 install -r requirements-3.txt
