@@ -9,4 +9,4 @@
 
 ##### Credits
 
-Somewhat ripped off from `holman/dotfiles` and `mathiasbynens/dotfiles`.
+Somewhat ripped off from `holman/dotfiles` and `mathiasbynens/dotfiles`, with some bits 'inspired' by `lamby/dotfiles`.
