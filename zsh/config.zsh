@@ -7,6 +7,9 @@ fi
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
 
+eval $( gdircolors -b $ZSH/zsh/LS_COLORS )
+zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
+
 fpath=($ZSH/functions $fpath)
 
 autoload -U $ZSH/functions/*(:t)
