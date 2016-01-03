@@ -1,7 +1,6 @@
 [storage]
-engine = file_system
-path = .dotfiles/apps/
-directory = sync
+engine = dropbox
+directory = Configuration/Apps
 
 [applications_to_sync]
 bartender
