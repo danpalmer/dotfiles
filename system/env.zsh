@@ -1,2 +1,1 @@
 export EDITOR="subl -w"
-
