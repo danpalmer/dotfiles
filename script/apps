@@ -2,7 +2,7 @@ restore_application_configuration() {
   info "restoring app configs"
 
   # First restore to overwrite local state, might be a no-op...
-  mackup restore
+  mackup restore --force
 
   # ...then backup to add any new state.
   mackup backup
