@@ -8,16 +8,12 @@
 # Cyan: 103, 217, 240
 # White: 242, 242, 242
 
-if [[ $VIRTUAL_ENV != "" ]]
-    then
-      # Strip out the path and just leave the env name
-      venv="(${VIRTUAL_ENV##*/})"
-else
-      # In case you don't have one activated
-      venv=''
-fi
+function virtualenv_prompt_info(){
+  [[ -n ${VIRTUAL_ENV} ]] || return
+  echo "[${VIRTUAL_ENV:t}]"
+}
 
-PROMPT='$(venv)%{$fg[magenta]%}[%c]%{$reset_color%}$(git-radar --zsh --fetch) '
+PROMPT='$(virtualenv_prompt_info)%{$fg[magenta]%}[%c]%{$reset_color%}$(git-radar --zsh --fetch) '
 
 # More symbols to choose from:
 # ☀ ✹  ♆ ♀ ♁ ♐ ♇ ♈ ♉ ♚ ♛ ♜ ♝ ♞ ♟ ♠ ♣ ⚢ ⚲ ⚳ ⚴ ⚥ ⚤ ⚦ ⚒ ⚑ ⚐ ♺ ♻ ♼ ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷
