@@ -1,5 +1,18 @@
 {
-	"translate_tabs_to_spaces": true,
-	"use_tab_stops": true,
-	"rulers": [80, 120]
+    "rulers": [79, 120],
+    "pep8_ignore": [
+        "E302",
+        "E261",
+        "E126",
+        "E262",
+        "E203",
+        "E221",
+        "E128",
+        "E124",
+        "E501"
+    ],
+    "translate_tabs_to_spaces": true,
+    "detect_indentation": true,
+    "use_tab_stops": true,
+    "tab_size": 4
 }

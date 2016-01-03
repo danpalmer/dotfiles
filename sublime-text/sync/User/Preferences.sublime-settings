@@ -1,20 +1,36 @@
 {
-	"always_show_minimap_viewport": false,
-	"color_scheme": "Packages/Github Color Theme/GitHub.tmTheme",
-	"draw_minimap_border": false,
-	"folder_exclude_patterns":
-	[
-		".cache",
-		".git",
-		"__pycache__"
-	],
-	"font_face": "Monaco",
-	"font_size": 12,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"scroll_past_end": true,
-	"theme": "Soda Light.sublime-theme",
-	"translate_tabs_to_spaces": true
+    "always_show_minimap_viewport": false,
+    "color_scheme": "Packages/Github Color Theme/GitHub.tmTheme",
+    "draw_minimap_border": false,
+    "folder_exclude_patterns":
+    [
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        "__pycache__",
+        ".coverage_report",
+        ".cache"
+    ],
+    "font_face": "Hack",
+    "font_size": 12,
+    "ignored_packages":
+    [
+        "Vintage",
+        "Python"
+    ],
+    "scroll_past_end": true,
+    "theme": "Soda Light.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "ensure_newline_at_eof_on_save": true,
+    "fizzy_folder_icons": true,
+    "fizzy_classic_tabs": true,
+    "inactive_panes_dim_color": "#000000",
+    "inactive_panes_dim_strength": 0.03,
+    "trailing_spaces_highlight_color": "",
+    "trailing_spaces_syntax_ignore":
+    [
+        "Diff"
+    ],
+    "trailing_spaces_trim_on_save": true
 }

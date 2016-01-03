@@ -1,29 +1,49 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
-		"Alignment",
-		"BracketHighlighter",
-		"DashDoc",
-		"Find++",
-		"FindKeyConflicts",
-		"Github Color Theme",
-		"HexViewer",
-		"HTML-CSS-JS Prettify",
-		"HTML5",
-		"INI",
-		"JsFormat",
-		"LaTeXTools",
-		"Package Control",
-		"Sass",
-		"SideBarEnhancements",
-		"SublimeCodeIntel",
-		"SublimeGit",
-		"Terminal",
-		"Theme - Soda",
-		"VAlign"
-	]
+    "bootstrapped": true,
+    "in_process_packages":
+    [
+    ],
+    "installed_packages":
+    [
+        "Alignment",
+        "BetterFindBuffer",
+        "BracketHighlighter",
+        "Case Conversion",
+        "Color Highlighter",
+        "ColorPicker",
+        "DashDoc",
+        "Djaneiro",
+        "Find++",
+        "FindKeyConflicts",
+        "Gist",
+        "GitGutter",
+        "Github Color Theme",
+        "HexViewer",
+        "HTML-CSS-JS Prettify",
+        "HTML5",
+        "InactivePanes",
+        "INI",
+        "Jinja2",
+        "JsFormat",
+        "LaTeXTools",
+        "MagicPython",
+        "Markdown Preview",
+        "nginx",
+        "Origami",
+        "Package Control",
+        "Reform",
+        "Sass",
+        "SCSS",
+        "SideBarEnhancements",
+        "SublimeCodeIntel",
+        "SublimeGit",
+        "SublimeLinter",
+        "SublimeLinter-pep8",
+        "SublimeLinter-pyflakes",
+        "SublimeREPL",
+        "Theme - Soda",
+        "TrailingSpaces",
+        "VAlign",
+        "Wrap Plus"
+    ]
 }
