@@ -143,14 +143,26 @@ restore_application_configuration() {
   mackup restore
 }
 
+run_installers() {
+  # find the installers and run them iteratively
+  find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
+}
+
+install_and_update_homebrew() {
+  # Run Homebrew through the Brewfile
+  brew update
+  brew bundle
+}
+
 setup_gitconfig
 install_dotfiles
+run_installers
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]
 then
   info "installing dependencies"
-  if source bin/dot > /tmp/dotfiles-dot 2>&1
+  if install_and_update_homebrew 2>&1
   then
     success "dependencies installed"
   else

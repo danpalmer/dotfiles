@@ -5,3 +5,6 @@
 
 echo "› sudo softwareupdate -i -a"
 sudo softwareupdate -i -a
+
+echo "› setting defaults"
+sudo $DOTFILES_ROOT/osx/set-defaults.sh
