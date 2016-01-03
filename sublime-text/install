@@ -12,5 +12,5 @@ fi
 if [ ! -h "$USER_PACKAGE" ]; then
     info "Sublime User package not synced, symlinking..."
     rm -rf "$USER_PACKAGE"
-    ln -s ~/.dotfiles/sublime-text/sync/User "$USER_PACKAGE"
+    ln -s "$BASE_PATH/sublime-text/sync/User" "$USER_PACKAGE"
 fi
