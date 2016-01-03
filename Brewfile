@@ -16,6 +16,8 @@ brew 'readline'
 brew 'spark'
 brew 'unrar'
 brew 'youtube-dl'
+brew 'python'
+brew 'python3'
 
 cask 'atom'
 cask 'bartender'
