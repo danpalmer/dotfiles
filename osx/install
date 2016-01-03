@@ -3,8 +3,14 @@
 # command line interface to it that we can use to just install everything, so
 # yeah, let's do that.
 
-echo "› sudo softwareupdate -i -a"
-sudo softwareupdate -i -a
+info "running software update"
+sudo softwareupdate -i -a >/dev/null
 
-echo "› setting defaults"
-sudo $DOTFILES_ROOT/osx/set-defaults.sh
+if [ $? -eq 0 ]; then
+  success "software update done"
+else
+  fail "software update failed"
+fi
+
+info "setting OS X defaults"
+sudo "$BASE_PATH/osx/set-defaults.sh"
