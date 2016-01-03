@@ -4,10 +4,11 @@ directory = Configuration/Apps
 
 [applications_to_sync]
 bartender
-karabiner
 caffeine
 charles
 dash
+istatmenus
+karabiner
 soulver
 transmission
 vlc
