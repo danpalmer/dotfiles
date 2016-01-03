@@ -1,7 +1,2 @@
-info "installing python 2.x packages"
-pip install -r -q python/requirements-common.txt
-pip install -r -q python/requirements-2.txt
-
-info "installing python 3.x packages"
-pip3 install -r -q python/requirements-common.txt
-pip3 install -r -q python/requirements-3.txt
+info "installing global python packages"
+pip3 install -q -r python/requirements.txt
