@@ -4,7 +4,7 @@
 # yeah, let's do that.
 
 info "running software update"
-sudo softwareupdate -i -a 2&1>/dev/null
+sudo softwareupdate -i -a &>/dev/null
 
 if [ $? -eq 0 ]; then
   success "software update done"
