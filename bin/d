@@ -27,3 +27,5 @@ git push -q
 
 info "re-bootstrapping"
 exec script/bootstrap
+
+osascript -e 'display notification "Re-initialised dotfiles" with title "bin/d"'
