@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+defaults write com.googlecode.iterm2 PrefsCustomFolder "~/Dropbox/Configuration/iTerm2"
+defaults write com.googlecode.iterm2 NoSyncNeverRemindPrefsChangesLostForFile 1
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder 1
