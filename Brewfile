@@ -20,6 +20,7 @@ brew 'python'
 brew 'python3'
 brew 'ffmpeg'
 brew 'nmap'
+brew 'htop'
 
 cask 'atom'
 cask 'bartender'
