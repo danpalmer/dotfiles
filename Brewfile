@@ -18,6 +18,8 @@ brew 'unrar'
 brew 'youtube-dl'
 brew 'python'
 brew 'python3'
+brew 'ffmpeg'
+brew 'nmap'
 
 cask 'atom'
 cask 'bartender'
