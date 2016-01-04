@@ -1,0 +1,6 @@
+alias rs="./manage.py runserver"
+alias mt="./manage.py test"
+alias mm="./manage.py migrate"
+alias mmm="./manage.py makemigrations"
+alias tp="./manage.py test --failfast && git push"
+alias ms="./manage.py shell"
