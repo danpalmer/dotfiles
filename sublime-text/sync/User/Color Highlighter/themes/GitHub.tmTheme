@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
     <key>name</key>
     <string>GitHub</string>
     <key>settings</key>
     <array>
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_000000FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#000000FF</string>
+<key>foreground</key>
+<string>#FFFFFFFF</string>
+<key>caret</key>
+<string>#FFFFFFFF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_000000FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#FFFFFEFF</string>
+<key>foreground</key>
+<string>#000000FF</string>
+<key>caret</key>
+<string>#FFFFFFFF</string>
+</dict>
+</dict>
+
       <dict>
           <key>settings</key>
           <dict>
@@ -50,7 +82,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#A71D5D</string>
           </dict>
@@ -63,7 +95,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#0086B3</string>
           </dict>
@@ -76,7 +108,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#a71d5d</string>
           </dict>
@@ -89,7 +121,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#a71d5d</string>
           </dict>
@@ -102,7 +134,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#0086B3</string>
           </dict>
@@ -142,7 +174,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#795da3</string>
           </dict>
@@ -155,7 +187,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#0086B3</string>
           </dict>
@@ -168,7 +200,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#000000</string>
           </dict>
@@ -181,7 +213,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#0086b3</string>
           </dict>
@@ -205,7 +237,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
           </dict>
       </dict>
       <dict>
@@ -216,7 +248,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#0086b3</string>
           </dict>
@@ -229,7 +261,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#183691</string>
           </dict>
@@ -242,7 +274,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#009926</string>
           </dict>
@@ -266,7 +298,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#333333</string>
           </dict>
@@ -279,7 +311,7 @@
               <key>foreground</key>
               <string>#333</string>
               <key>fontStyle</key>
-              <string />
+              <string></string>
           </dict>
       </dict>
       <dict>
@@ -288,7 +320,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#333333</string>
           </dict>
@@ -299,14 +331,14 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#f00</string>
           </dict>
       </dict>
 
 
-      
+      <!-- HTML -->
       <dict>
           <key>name</key>
           <string>HTML: Tags</string>
@@ -341,7 +373,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#183691</string>
           </dict>
@@ -354,7 +386,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#000000</string>
           </dict>
@@ -367,7 +399,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#795da3</string>
           </dict>
@@ -380,20 +412,20 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#183691</string>
           </dict>
       </dict>
 
-      
+      <!-- CSS/SASS -->
       <dict>
           <key>scope</key>
           <string>meta.selector, meta.selector entity, meta.selector entity punctuation, entity.name.tag.css, entity.other.attribute-name.class, keyword.control.html.sass</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#63a35c</string>
           </dict>
@@ -404,7 +436,7 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#795da3</string>
           </dict>
@@ -415,14 +447,14 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#0086b3</string>
           </dict>
       </dict>
 
 
-      
+      <!-- Ruby -->
       <dict>
           <key>scope</key>
           <string>keyword.other.special-method.ruby.gem</string>
@@ -431,7 +463,7 @@
               <key>foreground</key>
               <string>#0086B3</string>
               <key>fontStyle</key>
-              <string />
+              <string></string>
           </dict>
       </dict>
       <dict>
@@ -442,11 +474,11 @@
               <key>foreground</key>
               <string>#000</string>
               <key>fontStyle</key>
-              <string />
+              <string></string>
           </dict>
       </dict>
 
-      
+      <!-- Haskell -->
       <dict>
           <key>scope</key>
           <string>support.function.prelude, variable.other.generic-type.haskell</string>
@@ -455,7 +487,7 @@
               <key>foreground</key>
               <string>#000</string>
               <key>fontStyle</key>
-              <string />
+              <string></string>
           </dict>
       </dict>
       <dict>
@@ -464,13 +496,13 @@
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
-              <string />
+              <string></string>
               <key>foreground</key>
               <string>#445588</string>
           </dict>
       </dict>
 
-    
+    <!-- Diff -->
     <dict>
       <key>name</key>
       <string>diff.header</string>
@@ -519,37 +551,7 @@
         <string>#ececec</string>
       </dict>
     </dict>
-    <dict>
-            <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D02000</string>
-            </dict>
-        </dict></array>
+    </array>
     <key>uuid</key>
     <string>BF4E1964-0DB9-4E88-8142-E8F52D7EDEEC</string>
   </dict>
