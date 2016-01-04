@@ -54,7 +54,6 @@ cask 'torbrowser'
 cask 'virtualbox'
 cask 'virtualbox-extension-pack'
 cask 'vlc'
-cask 'xscope'
 
 tap 'michaeldfallen/formula'
 brew 'git-radar'
