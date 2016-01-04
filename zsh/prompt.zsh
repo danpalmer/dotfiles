@@ -1,3 +1,5 @@
+autoload -U colors && colors
+
 function virtualenv_prompt_info(){
   [[ -n ${VIRTUAL_ENV} ]] || return
   echo "[${VIRTUAL_ENV:t}]"
