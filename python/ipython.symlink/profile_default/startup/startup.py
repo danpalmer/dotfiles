@@ -87,8 +87,7 @@ if 'DJANGO_SETTINGS_MODULE' in os.environ:
         try:
             user = u('dan')
         except User.DoesNotExist:
-            try:
-                user = u('dan@danpalmer.me')
+            user = u('dan@danpalmer.me')
 
         locals()['dan'] = user
 
