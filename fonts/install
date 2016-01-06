@@ -1,1 +1,7 @@
 cp $BASE_PATH/fonts/fonts/* "$HOME/Library/Fonts"
+
+LIBERATION_FONT_PATH="$HOME/Library/Fonts/ttf-liberation"
+
+if [ ! -h "$LIBERATION_FONT_PATH" ]; then
+    ln -s "$BASE_PATH/fonts/fonts" "$LIBERATION_FONT_PATH"
+fi
