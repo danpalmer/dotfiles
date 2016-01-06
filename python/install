@@ -1,9 +1,10 @@
 info "installing python versions"
+# TODO: do not re-install if exists
 pyenv install 2.7.11
 pyenv install 3.4.2
 
-info "setting default python to 3"
-pyenv global 3.4.2
+info "setting default python to 2"
+pyenv global 2.7.11
 
 info "installing global python packages"
 pip install -q -r python/requirements.txt
