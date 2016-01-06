@@ -18,15 +18,7 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Advanced CSV",
-		"AlignTab",
-		"BracketHighlighter",
-		"Colorsublime",
-		"CSS Format",
-		"Django",
-		"Frontend Light Color Scheme",
 		"Python",
-		"RestructuredText",
 		"Vintage"
 	],
 	"inactive_panes_dim_color": "#000000",

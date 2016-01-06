@@ -2,18 +2,21 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"BracketHighlighter"
 	],
 	"installed_packages":
 	[
+		"Advanced CSV",
 		"Alignment",
+		"AlignTab",
 		"BetterFindBuffer",
 		"BracketHighlighter",
 		"Case Conversion",
 		"Color Highlighter",
 		"ColorPicker",
+		"CSS Format",
 		"DashDoc",
 		"Djaneiro",
+		"Django",
 		"Find++",
 		"FindKeyConflicts",
 		"Gist",
@@ -37,7 +40,6 @@
 		"Sass",
 		"SCSS",
 		"SideBarEnhancements",
-		"SublimeCodeIntel",
 		"SublimeGit",
 		"SublimeLinter",
 		"SublimeLinter-pep8",
