@@ -1,5 +1,5 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/GitHub (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/InspiredGitHub (SL).tmTheme",
 	"draw_minimap_border": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fizzy_classic_tabs": true,
@@ -12,7 +12,8 @@
 		"CVS",
 		"__pycache__",
 		".coverage_report",
-		".cache"
+		".cache",
+		".vagrant"
 	],
 	"font_face": "Hack",
 	"font_size": 12,
