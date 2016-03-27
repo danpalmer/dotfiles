@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/InspiredGitHub (SL).tmTheme",
 	"draw_minimap_border": false,
+	"elm_format_on_save": true,
 	"ensure_newline_at_eof_on_save": true,
 	"fizzy_classic_tabs": true,
 	"fizzy_folder_icons": true,
@@ -14,9 +15,13 @@
 		".coverage_report",
 		".cache",
 		".vagrant"
+		".tox",
+		"node_modules",
+		"elm-stuff",
+		"*.egg-info"
 	],
 	"font_face": "Hack",
-	"font_size": 12,
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"Python",

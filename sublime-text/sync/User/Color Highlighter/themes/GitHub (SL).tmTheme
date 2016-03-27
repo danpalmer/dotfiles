@@ -19,6 +19,15 @@
 <string>#4C0000FF</string>
 <key>caret</key>
 <string>#4C0000FF</string>
+<string>mcol_e7e7e7FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#e7e7e7FF</string>
+<key>foreground</key>
+<string>#181818FF</string>
+<key>caret</key>
+<string>#181818FF</string>
 </dict>
 </dict>
 
@@ -59,6 +68,8 @@
 <string>mon_text_color</string>
 <key>scope</key>
 <string>mcol_text_000000FF</string>
+=======
+<string>mcol_text_e7e7e7FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
@@ -67,6 +78,10 @@
 <string>#000000FF</string>
 <key>caret</key>
 <string>#FFFFFFFF</string>
+=======
+<string>#e7e7e7FF</string>
+<key>caret</key>
+<string>#181818FF</string>
 </dict>
 </dict>
 
