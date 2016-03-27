@@ -14,7 +14,7 @@
 		"__pycache__",
 		".coverage_report",
 		".cache",
-		".vagrant"
+		".vagrant",
 		".tox",
 		"node_modules",
 		"elm-stuff",
