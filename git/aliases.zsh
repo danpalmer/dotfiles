@@ -16,3 +16,9 @@ alias gco='git checkout'
 alias gcd='git checkout -'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
+
+move_commits_to_new_branch() {
+    git checkout -b $1
+    git checkout -
+    git reset --hard `git rev-parse --abbrev-ref --symbolic-full-name @{u}`
+}
