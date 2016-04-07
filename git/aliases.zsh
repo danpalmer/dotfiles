@@ -16,6 +16,7 @@ alias gco='git checkout'
 alias gcd='git checkout -'
 alias gb='git branch'
 alias gs='git status -sb' # upgrade your git if -sb breaks for you. it's fun.
+alias gap='git add -p'
 
 move_commits_to_new_branch() {
     git checkout -b $1
