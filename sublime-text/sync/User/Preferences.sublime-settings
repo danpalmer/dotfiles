@@ -18,7 +18,8 @@
 		".tox",
 		"node_modules",
 		"elm-stuff",
-		"*.egg-info"
+		"*.egg-info",
+		".stack-work"
 	],
 	"font_face": "Hack",
 	"font_size": 14,
