@@ -5,6 +5,7 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
 brew 'ack'
+brew 'antigen'
 brew 'coreutils'
 brew 'grc'
 brew 'imagemagick'
