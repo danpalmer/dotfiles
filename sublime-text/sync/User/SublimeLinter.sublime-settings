@@ -19,12 +19,17 @@
                 "select": "",
                 "show-code": false
             },
+            "hlint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "pep8": {
-                "@disable": true,
+                "@disable": false,
                 "args": [],
                 "excludes": [],
-                "ignore": "E501,E302,E128",
-                "max-line-length": 120,
+                "ignore": "",
+                "max-line-length": null,
                 "select": ""
             },
             "pyflakes": {
@@ -39,7 +44,7 @@
         "paths": {
             "linux": [],
             "osx": [
-                "/usr/local/var/pyenv/versions/2.7.11/bin"
+                "/usr/local/var/pyenv/versions/2.7.11/bin:/usr/local/bin:/Users/dan/.local/bin"
             ],
             "windows": []
         },
@@ -50,7 +55,7 @@
         },
         "rc_search_limit": 3,
         "shell_timeout": 10,
-        "show_errors_on_save": false,
+        "show_errors_on_save": true,
         "show_marks_in_minimap": true,
         "syntax_map": {
             "html (django)": "html",

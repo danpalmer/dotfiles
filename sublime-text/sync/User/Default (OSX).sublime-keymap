@@ -29,5 +29,13 @@
 			"rows": [0.0, 1.0],
 			"cells": [[0, 0, 1, 1], [1, 0, 2, 1], [2, 0, 3, 1]]
 		}
+	},
+	{
+		"keys": ["alt+g"],
+		"command": "rust_goto_definition",
+	},
+	{
+		"keys": ["alt+g"],
+		"command": "sublime_haskell_go_to_declaration",
 	}
 ]
