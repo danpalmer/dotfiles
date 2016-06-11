@@ -21,6 +21,10 @@
 		"*.egg-info",
 		".stack-work"
 	],
+	"file_exclude_patterns":
+	[
+		"*.dump-hi"
+	],
 	"font_face": "Hack",
 	"font_size": 14,
 	"ignored_packages":
