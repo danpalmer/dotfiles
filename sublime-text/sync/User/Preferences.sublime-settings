@@ -3,6 +3,12 @@
 	"draw_minimap_border": false,
 	"elm_format_on_save": true,
 	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.dump-hi",
+		"*.pyc",
+		".DS_Store"
+	],
 	"fizzy_classic_tabs": true,
 	"fizzy_folder_icons": true,
 	"folder_exclude_patterns":
@@ -20,10 +26,6 @@
 		"elm-stuff",
 		"*.egg-info",
 		".stack-work"
-	],
-	"file_exclude_patterns":
-	[
-		"*.dump-hi"
 	],
 	"font_face": "Hack",
 	"font_size": 14,
