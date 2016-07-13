@@ -1,1 +1,1 @@
-eval "$(stack --bash-completion-script stack)"
+#eval "$(stack --bash-completion-script stack)"
