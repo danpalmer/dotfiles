@@ -1,11 +1,11 @@
 {
     "user": {
-        "debug": false,
-        "delay": 0.25,
+        "debug": true,
+        "delay": 0.5,
         "error_color": "D02000",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
         "gutter_theme_excludes": [],
-        "lint_mode": "load/save",
+        "lint_mode": "background",
         "linters": {
             "flake8": {
                 "@disable": false,
@@ -18,39 +18,24 @@
                 "max-line-length": null,
                 "select": "",
                 "show-code": false
-            },
-            "hlint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "pep8": {
-                "@disable": false,
-                "args": [],
-                "excludes": [],
-                "ignore": "",
-                "max-line-length": null,
-                "select": ""
-            },
-            "pyflakes": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
             }
         },
-        "mark_style": "squiggly underline",
+        "mark_style": "outline",
         "no_column_highlights_line": false,
         "passive_warnings": false,
         "paths": {
             "linux": [],
             "osx": [
-                "/usr/local/var/pyenv/versions/2.7.11/bin:/usr/local/bin:/Users/dan/.local/bin"
+                "/usr/local/var/pyenv/versions/2.7.12/bin:/usr/local/bin:/Users/dan/.local/bin",
+                "~/.virtualenvs/styleme/bin"
             ],
             "windows": []
         },
         "python_paths": {
             "linux": [],
-            "osx": [],
+            "osx": [
+                "~/.virtualenvs/styleme/bin"
+            ],
             "windows": []
         },
         "rc_search_limit": 3,

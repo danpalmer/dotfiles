@@ -1,4 +1,11 @@
 {
+	"auto_complete_triggers":
+	[
+		{
+			"characters": ".",
+			"selector": "source.python"
+		}
+	],
 	"color_scheme": "Packages/User/SublimeLinter/InspiredGitHub (SL).tmTheme",
 	"draw_minimap_border": false,
 	"elm_format_on_save": true,
@@ -25,18 +32,22 @@
 		"node_modules",
 		"elm-stuff",
 		"*.egg-info",
-		".stack-work"
+		".stack-work",
+		".eggs",
+		".idea",
+		".sass-cache"
 	],
 	"font_face": "Hack",
-	"font_size": 14,
+	"font_size": 15,
 	"ignored_packages":
 	[
-		"Python",
+		"DashDoc",
 		"Vintage"
 	],
 	"inactive_panes_dim_color": "#000000",
 	"inactive_panes_dim_strength": 0.03,
 	"scroll_past_end": true,
+	"sublime_completions_visibility": "jedi",
 	"theme": "Soda Light.sublime-theme",
 	"trailing_spaces_highlight_color": "",
 	"trailing_spaces_syntax_ignore":
