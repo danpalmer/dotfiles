@@ -2,3 +2,4 @@ pyflakes
 pep8
 tox
 virtualenvwrapper
+tox-pyenv
