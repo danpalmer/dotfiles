@@ -23,6 +23,8 @@ brew 'pyenv-virtualenvwrapper'
 brew 'readline'
 brew 'spark'
 brew 'unrar'
+brew 'python'
+brew 'python3'
 brew 'youtube-dl'
 
 cask 'atom'
