@@ -1,4 +1,4 @@
-pyflakes
+flake8
 pep8
 tox
 virtualenvwrapper
