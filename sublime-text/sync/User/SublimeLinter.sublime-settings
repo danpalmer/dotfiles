@@ -1,57 +1,82 @@
 {
-    "user": {
-        "debug": true,
-        "delay": 0.5,
-        "error_color": "D02000",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "background",
-        "linters": {
-            "flake8": {
-                "@disable": false,
-                "args": [],
-                "builtins": "",
-                "excludes": [],
-                "ignore": "",
-                "jobs": "1",
-                "max-complexity": -1,
-                "max-line-length": null,
-                "select": "",
-                "show-code": false
-            }
-        },
-        "mark_style": "outline",
-        "no_column_highlights_line": false,
-        "passive_warnings": false,
-        "paths": {
-            "linux": [],
-            "osx": [
-                "/usr/local/var/pyenv/versions/2.7.12/bin:/usr/local/bin:/Users/dan/.local/bin",
-                "~/.virtualenvs/styleme/bin"
-            ],
-            "windows": []
-        },
-        "python_paths": {
-            "linux": [],
-            "osx": [
-                "~/.virtualenvs/styleme/bin"
-            ],
-            "windows": []
-        },
-        "rc_search_limit": 3,
-        "shell_timeout": 10,
-        "show_errors_on_save": true,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "html (django)": "html",
-            "html (rails)": "html",
-            "html 5": "html",
-            "javascript (babel)": "javascript",
-            "magicpython": "python",
-            "php": "html",
-            "python django": "python"
-        },
-        "warning_color": "DDB700",
-        "wrap_find": true
-    }
+	"user":
+	{
+		"debug": true,
+		"delay": 0.5,
+		"error_color": "D02000",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+		"gutter_theme_excludes":
+		[
+		],
+		"lint_mode": "background",
+		"linters":
+		{
+			"flake8":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"builtins": "",
+				"excludes":
+				[
+				],
+				"executable": "",
+				"ignore": "",
+				"jobs": "1",
+				"max-complexity": -1,
+				"max-line-length": null,
+				"select": "",
+				"show-code": false
+			}
+		},
+		"mark_style": "outline",
+		"no_column_highlights_line": false,
+		"passive_warnings": false,
+		"paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+				"/usr/local/var/pyenv/versions/2.7.12/bin",
+				"/usr/local/bin",
+				"/Users/dan/.local/bin",
+				"~/.virtualenvs/styleme/bin"
+			],
+			"windows":
+			[
+			]
+		},
+		"python_paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+				"~/.virtualenvs/styleme/bin"
+			],
+			"windows":
+			[
+			]
+		},
+		"rc_search_limit": 3,
+		"shell_timeout": 10,
+		"show_errors_on_save": true,
+		"show_marks_in_minimap": true,
+		"syntax_map":
+		{
+			"html (django)": "html",
+			"html (rails)": "html",
+			"html 5": "html",
+			"javascript (babel)": "javascript",
+			"magicpython": "python",
+			"php": "html",
+			"python django": "python"
+		},
+		"warning_color": "DDB700",
+		"wrap_find": true
+	}
 }
