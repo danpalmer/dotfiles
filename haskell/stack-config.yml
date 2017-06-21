@@ -1,0 +1,5 @@
+templates:
+  params:
+    author-name: Dan Palmer
+    author-email: dan@danpalmer.me
+    github-username: danpalmer

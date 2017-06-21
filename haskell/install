@@ -3,3 +3,8 @@ if [ -x "$(command -v stack)" ]; then
     stack install hsdev
     stack install stylish-haskell
 fi
+
+config_file = "~/.stack/config.yml"
+if [ ! -f "$config_file" ]; then
+	ln -s ~/.dotfiles/haskell/stack-config.yml $config_file
+fi
