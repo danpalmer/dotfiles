@@ -1,4 +1,4 @@
-if [ -x "$(command -v git)" ]; then
+if [ -x "$(command -v stack)" ]; then
     stack setup
 
     rm ~/.stack/global/stack.yml || echo "No global config for stack"
