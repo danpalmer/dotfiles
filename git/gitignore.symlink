@@ -2,3 +2,5 @@
 *~
 *.swp
 .python-version
+stellar.yaml
+.kiteignore
