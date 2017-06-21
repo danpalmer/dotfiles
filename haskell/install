@@ -1,7 +1,9 @@
-stack setup
+if [ -x "$(command -v git)" ]; then
+    stack setup
 
-rm ~/.stack/global/stack.yml || echo "No global config for stack"
-ln -s ~/.stack/global/stack.yml ~/.dotfiles/haskell/stack.yml
+    rm ~/.stack/global/stack.yml || echo "No global config for stack"
+    ln -s ~/.stack/global/stack.yml ~/.dotfiles/haskell/stack.yml
 
-stack install hsdev
-stack install stylish-haskell
+    stack install hsdev
+    stack install stylish-haskell
+fi
