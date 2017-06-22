@@ -1,5 +1,5 @@
 # Load antigen
-source $(brew --prefix)/share/antigen.zsh
+source $(brew --prefix)/share/antigen/antigen.zsh
 
 antigen bundle heroku
 antigen bundle pip
