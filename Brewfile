@@ -28,6 +28,7 @@ brew 'python'
 brew 'python3'
 brew 'youtube-dl'
 
+cask 'alfred'
 cask 'atom'
 cask 'bartender'
 cask 'base'
