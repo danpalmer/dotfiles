@@ -37,11 +37,11 @@
 				"max-complexity": -1,
 				"max-line-length": null,
 				"select": "",
-				"show-code": false
+				"show-code": true
 			}
 		},
 		"mark_style": "outline",
-		"no_column_highlights_line": false,
+		"no_column_highlights_line": true,
 		"passive_warnings": false,
 		"paths":
 		{
@@ -52,7 +52,7 @@
 			[
 				"/usr/local/bin",
 				"/Users/dan/.local/bin",
-				"/Users/dan/.virtualenvs/styleme/bin/"
+				"/Users/dan/.virtualenvs/linting/bin/"
 			],
 			"windows":
 			[
@@ -65,7 +65,7 @@
 			],
 			"osx":
 			[
-				"~/.virtualenvs/styleme/bin"
+				"/Users/dan/.virtualenvs/linting/bin"
 			],
 			"windows":
 			[

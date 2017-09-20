@@ -6,7 +6,7 @@
 			"selector": "source.python"
 		}
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Dracula (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Breakers (SL).tmTheme",
 	"draw_minimap_border": false,
 	"elm_format_on_save": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -42,7 +42,7 @@
 		"build/pip_cache"
 	],
 	"font_face": "Hack",
-	"font_size": 14,
+	"font_size": 15,
 	"ignored_packages":
 	[
 		"FlowIDE",
@@ -53,7 +53,7 @@
 	"scroll_past_end": true,
 	"show_definitions": true,
 	"sublime_completions_visibility": "jedi",
-	"theme": "Soda Light.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"trailing_spaces_highlight_color": "",
 	"trailing_spaces_syntax_ignore":
 	[

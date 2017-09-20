@@ -1,0 +1,14 @@
+{
+    "auto_format_on_save": true,
+    "prettier_options": {
+        "trailingComma": "es5"
+    },
+    "additional_cli_args": {
+        "--single-quote": ""
+    },
+    "auto_format_on_save_excludes": [
+        "*/node_modules/*",
+        "*/.git/*",
+        "*.json"
+    ]
+}
