@@ -5,11 +5,9 @@ import time
 import json
 import errno
 import random
-import urllib
 import pprint
 import decimal
 import logging
-import urllib2
 import datetime
 import functools
 import itertools
@@ -18,20 +16,11 @@ import collections
 
 utcnow = datetime.datetime.utcnow
 
-try:
-    import numpy
-except ImportError:
-    pass
-
 def ago(**kwargs):
     return utcnow() - datetime.timedelta(**kwargs)
 
 def future(**kwargs):
     return utcnow() + datetime.timedelta(**kwargs)
-
-def GET(url):
-    import urllib
-    return urllib.urlopen(url).read()
 
 if 'DJANGO_SETTINGS_MODULE' in os.environ:
     from django.db import models, transaction, connection, connections
@@ -48,7 +37,7 @@ if 'DJANGO_SETTINGS_MODULE' in os.environ:
     User = get_user_model()
 
     def u(val):
-        if not isinstance(val, basestring):
+        if not isinstance(val, str):
             return User.objects.get(pk=val)
 
         if '@' in val:
@@ -65,11 +54,6 @@ if 'DJANGO_SETTINGS_MODULE' in os.environ:
     except ImportError:
         from django.utils.functional import memoize
         u = memoize(u, {}, 1)
-
-    def DGET(url):
-        import urllib
-        from django.core.files.base import ContentFile
-        return ContentFile(urllib.urlopen(url).read())
 
     try:
         from django.apps import apps
