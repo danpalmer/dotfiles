@@ -5,3 +5,5 @@ alias mmm="styleme/manage.py makemigrations"
 alias tp="styleme/manage.py test --failfast && git push"
 alias ms="styleme/manage.py shell_plus --ipython"
 alias gr="styleme/manage.py generate_reports"
+
+alias withbrew="CFLAGS=-I$(brew --prefix)/include LDFLAGS=-L$(brew --prefix)/lib"
