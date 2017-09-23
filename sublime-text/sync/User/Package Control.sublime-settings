@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"AlignTab",
+		"Babel",
 		"Better CoffeeScript",
 		"BetterFindBuffer",
 		"BracketHighlighter",
@@ -20,6 +21,7 @@
 		"Elm Language Support",
 		"FindKeyConflicts",
 		"Fix Mac Path",
+		"Flow",
 		"Flow Built-In Type Completion",
 		"FlowIDE",
 		"Fold Python",
@@ -54,12 +56,13 @@
 		"SublimeGit",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-contrib-mypy",
 		"SublimeLinter-flake8",
+		"SublimeLinter-flow",
 		"Text Pastry",
 		"Theme - Soda",
 		"TOML",
 		"TrailingSpaces",
-		"TypeScript",
 		"VAlign",
 		"VBDotNet",
 		"Wrap Plus"

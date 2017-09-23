@@ -114,33 +114,6 @@
 			{
 				"args":
 				{
-					"text": "\\i(10, 10)"
-				},
-				"command": "text_pastry_step",
-				"text": "\\i(10, 10)"
-			},
-			"key": "d91a247108d001d0db0d353e960ab712",
-			"label": "\\i(10, 10)"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"start": "10",
-					"stop": "10"
-				},
-				"command": "text_pastry_range",
-				"text": "range 10 10"
-			},
-			"key": "701d1079e5515472484c8ef334774cdc",
-			"label": "range 10 10"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"start": "10",
 					"step": "10",
 					"stop": "0"
@@ -169,22 +142,76 @@
 			{
 				"args":
 				{
-					"stop": "2761"
+					"start": "10",
+					"stop": "10"
 				},
 				"command": "text_pastry_range",
-				"text": "range 2761"
+				"text": "range 10 10"
 			},
-			"key": "5541e55a3505a63a465f75afe2d5d018",
-			"label": "range 2761"
+			"key": "701d1079e5515472484c8ef334774cdc",
+			"label": "range 10 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\n(10, 10)",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "\\n(10, 10)"
+			},
+			"key": "e7dfdbcf4d2cfc800d82af2a9ecc9e7d",
+			"label": "\\n(10, 10)"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(10, 10)"
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(10, 10)"
+			},
+			"key": "d91a247108d001d0db0d353e960ab712",
+			"label": "\\i(10, 10)"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"stop": "1"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1"
+			},
+			"key": "8901b4fef0730f41bca3fa0d31f4eb2f",
+			"label": "range 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(1)"
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(1)"
+			},
+			"key": "5816541bf0789a00f9efcbb7800b50c0",
+			"label": "\\i(1)"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"stop": "2761"
+			"text": "\\i(1)"
 		},
-		"command": "text_pastry_range",
-		"text": "range 2761"
+		"command": "text_pastry_step",
+		"text": "\\i(1)"
 	}
 }

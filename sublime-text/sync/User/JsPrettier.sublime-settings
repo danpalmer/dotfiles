@@ -1,14 +1,8 @@
 {
     "auto_format_on_save": true,
     "prettier_options": {
+        "singleQuote": true,
         "trailingComma": "es5"
     },
-    "additional_cli_args": {
-        "--single-quote": ""
-    },
-    "auto_format_on_save_excludes": [
-        "*/node_modules/*",
-        "*/.git/*",
-        "*.json"
-    ]
+    "prettier_cli_path": "/usr/local/Cellar/node/8.2.1/bin/prettier"
 }

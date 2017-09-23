@@ -16,6 +16,8 @@
 				"@disable": false,
 				"args":
 				[
+					"--ext=js",
+					"--ext=jsx"
 				],
 				"excludes":
 				[
@@ -37,7 +39,30 @@
 				"max-complexity": -1,
 				"max-line-length": null,
 				"select": "",
-				"show-code": true
+				"show-code": false
+			},
+			"flow":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				],
+				"flow-bin": null,
+				"show-all-errors": true
+			},
+			"mypy":
+			{
+				"@disable": true,
+				"args":
+				[
+					"--ignore-missing-imports"
+				],
+				"excludes":
+				[
+				]
 			}
 		},
 		"mark_style": "outline",
@@ -52,7 +77,8 @@
 			[
 				"/usr/local/bin",
 				"/Users/dan/.local/bin",
-				"/Users/dan/.virtualenvs/linting/bin/"
+				"/usr/local/Cellar/node/8.1.2/bin",
+				"/Users/dan/.virtualenvs/linting/bin"
 			],
 			"windows":
 			[
@@ -77,6 +103,7 @@
 		"show_marks_in_minimap": true,
 		"syntax_map":
 		{
+			"JSX": "javascript",
 			"html (django)": "html",
 			"html (rails)": "html",
 			"html 5": "html",

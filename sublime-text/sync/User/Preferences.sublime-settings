@@ -6,7 +6,7 @@
 			"selector": "source.python"
 		}
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Breakers (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
 	"draw_minimap_border": false,
 	"elm_format_on_save": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -16,7 +16,8 @@
 		"*.pyc",
 		".DS_Store",
 		".python-version",
-		".coverage*"
+		".coverage*",
+		"*.sublime-workspace"
 	],
 	"fizzy_classic_tabs": true,
 	"fizzy_folder_icons": true,
@@ -39,10 +40,14 @@
 		".idea",
 		".sass-cache",
 		"build/yarn_cache",
-		"build/pip_cache"
+		"build/pip_cache",
+		".expo",
+		".mypy_cache",
+		".venv",
+		".hypothesis"
 	],
 	"font_face": "Hack",
-	"font_size": 15,
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"FlowIDE",
