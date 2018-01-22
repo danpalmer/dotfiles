@@ -4,5 +4,13 @@
         "singleQuote": true,
         "trailingComma": "es5"
     },
-    "prettier_cli_path": "/usr/local/Cellar/node/8.2.1/bin/prettier"
+    "additional_cli_args": {
+        "--single-quote": ""
+    },
+    "auto_format_on_save_excludes": [
+        "*/node_modules/*",
+        "*/.git/*",
+        "*.json"
+    ],
+    "node_path": "/Users/dan/.nvm/versions/node/v8.4.0/bin/node"
 }

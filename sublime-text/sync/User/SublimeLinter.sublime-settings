@@ -1,124 +1,78 @@
 {
-	"user":
-	{
-		"debug": true,
-		"delay": 0.5,
-		"error_color": "D02000",
-		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
-		"gutter_theme_excludes":
-		[
-		],
-		"lint_mode": "background",
-		"linters":
-		{
-			"eslint":
-			{
-				"@disable": false,
-				"args":
-				[
-					"--ext=js",
-					"--ext=jsx"
-				],
-				"excludes":
-				[
-				]
-			},
-			"flake8":
-			{
-				"@disable": false,
-				"args":
-				[
-				],
-				"builtins": "",
-				"excludes":
-				[
-				],
-				"executable": "",
-				"ignore": "",
-				"jobs": "1",
-				"max-complexity": -1,
-				"max-line-length": null,
-				"select": "",
-				"show-code": false
-			},
-			"flow":
-			{
-				"@disable": false,
-				"args":
-				[
-				],
-				"excludes":
-				[
-				],
-				"flow-bin": null,
-				"show-all-errors": true
-			},
-			"mypy":
-			{
-				"@disable": true,
-				"args":
-				[
-					"--ignore-missing-imports"
-				],
-				"excludes":
-				[
-				]
-			}
-		},
-		"mark_style": "outline",
-		"no_column_highlights_line": true,
-		"passive_warnings": false,
-		"paths":
-		{
-			"linux":
-			[
-			],
-			"osx":
-			[
-				"/usr/local/bin",
-				"/Users/dan/.local/bin",
-				"/usr/local/Cellar/node/8.1.2/bin",
-				"/Users/dan/.virtualenvs/linting/bin"
-			],
-			"windows":
-			[
-			]
-		},
-		"python_paths":
-		{
-			"linux":
-			[
-			],
-			"osx":
-			[
-				"/Users/dan/.virtualenvs/linting/bin"
-			],
-			"windows":
-			[
-			]
-		},
-		"rc_search_limit": 3,
-		"shell_timeout": 10,
-		"show_errors_on_save": true,
-		"show_marks_in_minimap": true,
-		"syntax_map":
-		{
-			"JSX": "javascript",
-			"html (django)": "html",
-			"html (rails)": "html",
-			"html 5": "html",
-			"javascript (babel)": "javascript",
-			"magicpython": "python",
-			"php": "html",
-			"python django": "python"
-		},
-		"tooltip_fontsize": "1rem",
-		"tooltip_theme": "none",
-		"tooltip_theme_excludes":
-		[
-		],
-		"tooltips": true,
-		"warning_color": "DDB700",
-		"wrap_find": true
-	}
+    "user": {
+        "debug": true,
+        "delay": 0.5,
+        "error_color": "D02000",
+        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default/Default.gutter-theme",
+        "gutter_theme_excludes": [],
+        "lint_mode": "background",
+        "linters": {
+            "eslint": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
+            "flake8": {
+                "@disable": false,
+                "args": [],
+                "builtins": "",
+                "excludes": [],
+                "executable": "",
+                "ignore": "",
+                "jobs": "1",
+                "max-complexity": -1,
+                "max-line-length": null,
+                "select": "",
+                "show-code": true
+            },
+            "mypy": {
+                "@disable": false,
+                "args": [],
+                "cache-dir": "",
+                "config-file": "",
+                "disallow-any": [],
+                "excludes": [],
+                "python-version": "",
+                "strict-optional-whitelist": []
+            }
+        },
+        "mark_style": "outline",
+        "no_column_highlights_line": true,
+        "passive_warnings": false,
+        "paths": {
+            "linux": [],
+            "osx": [
+                "/usr/local/bin",
+                "/Users/dan/.local/bin",
+                "/Users/dan/.virtualenvs/linting/bin/"
+            ],
+            "windows": []
+        },
+        "python_paths": {
+            "linux": [],
+            "osx": [
+                "/Users/dan/.virtualenvs/linting/bin"
+            ],
+            "windows": []
+        },
+        "rc_search_limit": 3,
+        "shell_timeout": 10,
+        "show_errors_on_save": true,
+        "show_marks_in_minimap": true,
+        "syntax_map": {
+            "html (django)": "html",
+            "html (rails)": "html",
+            "html 5": "html",
+            "javascript (babel)": "javascript",
+            "magicpython": "python",
+            "php": "html",
+            "python django": "python"
+        },
+        "tooltip_fontsize": "1rem",
+        "tooltip_theme": "none",
+        "tooltip_theme_excludes": [],
+        "tooltips": true,
+        "warning_color": "DDB700",
+        "wrap_find": true
+    }
 }

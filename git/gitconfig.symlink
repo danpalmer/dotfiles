@@ -4,8 +4,8 @@
 [hub]
         protocol = https
 [user]
-        name = Dan Palmer
-        email = dan@danpalmer.me
+	name = Dan Palmer
+	email = dan@danpalmer.me
 	signingkey = 58F424A7
 [credential]
         helper = osxkeychain

@@ -48,6 +48,7 @@
 	],
 	"font_face": "Hack",
 	"font_size": 14,
+	"font_face": "Operator Mono",
 	"ignored_packages":
 	[
 		"FlowIDE",
