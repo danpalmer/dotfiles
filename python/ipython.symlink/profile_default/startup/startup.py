@@ -22,7 +22,9 @@ def ago(**kwargs):
 def future(**kwargs):
     return utcnow() + datetime.timedelta(**kwargs)
 
-if 'DJANGO_SETTINGS_MODULE' in os.environ:
+u = None
+
+def load():
     from django.db import models, transaction, connection, connections
     from django.conf import settings
     from django.http import HttpRequest
@@ -31,12 +33,16 @@ if 'DJANGO_SETTINGS_MODULE' in os.environ:
     from django.core.cache import cache
     from django.contrib.auth import get_user_model
     from django.core.files.base import ContentFile
-    from django.core.urlresolvers import reverse, resolve
+    from django.urls import reverse, resolve
     from django.core.files.storage import default_storage
+    from django.core.exceptions import AppRegistryNotReady
 
-    User = get_user_model()
+    try:
+        User = get_user_model()
+    except AppRegistryNotReady:
+        return
 
-    def u(val):
+    def _u(val):
         if not isinstance(val, str):
             return User.objects.get(pk=val)
 
@@ -47,6 +53,7 @@ if 'DJANGO_SETTINGS_MODULE' in os.environ:
             return User.objects.get(username=val)
 
         raise User.DoesNotExist()
+    u = _u
 
     try:
         from django.utils.lru_cache import lru_cache
@@ -91,3 +98,6 @@ if 'DJANGO_SETTINGS_MODULE' in os.environ:
 
     # Avoid having to print or otherwise str() a Query
     models.sql.query.Query.__repr__ = lambda self: str(self)
+
+if 'DJANGO_SETTINGS_MODULE' in os.environ:
+    load()
