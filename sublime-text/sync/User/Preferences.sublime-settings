@@ -6,7 +6,7 @@
 			"selector": "source.python"
 		}
 	],
-	"color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Chelevra-Ayu.tmTheme",
 	"draw_minimap_border": false,
 	"elm_format_on_save": true,
 	"ensure_newline_at_eof_on_save": true,
@@ -46,25 +46,26 @@
 		".venv",
 		".hypothesis"
 	],
-	"font_face": "Hack",
-	"font_size": 14,
-	"font_face": "Operator Mono",
+	"font_face": "Fira Code",
+	"font_size": 17,
 	"ignored_packages":
 	[
 		"FlowIDE",
+		"Python",
 		"Vintage"
 	],
 	"inactive_panes_dim_color": "#000000",
-	"inactive_panes_dim_strength": 0.03,
+	"inactive_panes_dim_strength": 0.15,
 	"scroll_past_end": true,
 	"show_definitions": true,
 	"sublime_completions_visibility": "jedi",
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"trailing_spaces_highlight_color": "",
 	"trailing_spaces_syntax_ignore":
 	[
 		"Diff"
 	],
 	"trailing_spaces_trim_on_save": true,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"close_sidebar_if_opened": false
 }

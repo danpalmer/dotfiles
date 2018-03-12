@@ -44,5 +44,9 @@
     {
     	"keys": ["ctrl+h"],
     	"command": "dash_doc"
+    },
+    {
+        "command": "focus_file_on_sidebar",
+        "keys": ["super+shift+\\"],
     }
 ]
