@@ -4,3 +4,4 @@
 .python-version
 stellar.yaml
 .kiteignore
+.venv
