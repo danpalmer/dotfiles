@@ -6,6 +6,7 @@
 			"selector": "source.python"
 		}
 	],
+	"close_sidebar_if_opened": false,
 	"color_scheme": "Packages/Colorsublime - Themes/Chelevra-Ayu.tmTheme",
 	"draw_minimap_border": false,
 	"elm_format_on_save": true,
@@ -66,6 +67,5 @@
 		"Diff"
 	],
 	"trailing_spaces_trim_on_save": true,
-	"translate_tabs_to_spaces": true,
-	"close_sidebar_if_opened": false
+	"translate_tabs_to_spaces": true
 }
