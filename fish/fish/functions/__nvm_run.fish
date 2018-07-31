@@ -1,0 +1,1 @@
+/Users/dan/.config/fisherman/nvm/__nvm_run.fish
