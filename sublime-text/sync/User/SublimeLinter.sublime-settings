@@ -1,6 +1,7 @@
 // SublimeLinter Settings - User
 {
      "lint_mode": "background",
+     "show_panel_on_save": "view",
      "linters": {
          "eslint": {
             "disable": false,
@@ -46,5 +47,6 @@
             "${folder}/.venv/bin"
         ],
         "windows": []
-    }
+    },
+    "kill_old_processes": true
 }

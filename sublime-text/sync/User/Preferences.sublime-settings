@@ -45,10 +45,13 @@
 		".expo",
 		".mypy_cache",
 		".venv",
-		".hypothesis"
+		".hypothesis",
+		".pytest_cache",
+		"htmlcov",
+		"dist"
 	],
 	"font_face": "Fira Code",
-	"font_size": 17,
+	"font_size": 15,
 	"ignored_packages":
 	[
 		"FlowIDE",
