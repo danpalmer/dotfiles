@@ -48,7 +48,8 @@
 		".hypothesis",
 		".pytest_cache",
 		"htmlcov",
-		"dist"
+		"dist",
+		".vfile"
 	],
 	"font_face": "Fira Code",
 	"font_size": 15,

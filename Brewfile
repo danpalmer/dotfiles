@@ -18,5 +18,8 @@ brew 'readline'
 brew 'unrar'
 brew 'youtube-dl'
 
+tap 'heroku/brew'
+brew 'heroku'
+
 tap 'michaeldfallen/formula'
 brew 'git-radar'
