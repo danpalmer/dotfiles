@@ -3,7 +3,7 @@
 FISH="$HOME/.config/fish"
 
 # If it's not a symlink, symlink it to here.
-if [ ! -h "$FISH" ]; then
-    info "Sublime User package not synced, symlinking..."
+if [ ! -L "$FISH" ]; then
+    info "Fish config not symlinked, symlinking..."
     ln -s "$BASE_PATH/fish/fish" "$FISH"
 fi
