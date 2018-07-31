@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 cp $BASE_PATH/fonts/fonts/* "$HOME/Library/Fonts"
 
 LIBERATION_FONT_PATH="$HOME/Library/Fonts/ttf-liberation"
