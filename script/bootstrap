@@ -24,6 +24,5 @@ setup_gitconfig
 install_dotfiles
 run_installers
 install_homebrew_dependencies
-restore_application_configuration
 
 success "Done."
