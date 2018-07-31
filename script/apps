@@ -1,16 +1,6 @@
-restore_application_configuration() {
-  info "restoring app configs"
-
-  # First restore to overwrite local state, might be a no-op...
-  mackup restore --force >/dev/null
-
-  # ...then backup to add any new state.
-  mackup backup
-}
-
 run_installers() {
   find . -name install | while read installer ; do
-    
+
     name=$(basename $(dirname ${installer}))
 
     source "${installer}"

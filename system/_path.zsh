@@ -1,3 +1,7 @@
-export PATH="./bin:/usr/local/bin:/usr/local/sbin:$ZSH/bin:$PATH"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
-export PATH="/Applications/Postgres.app/Contents/Versions/9.6/bin:$PATH"
+
+# Postgres.app Path
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
+
+# Additional places we care about
+export PATH="./bin:/usr/local/bin:/usr/local/sbin:$ZSH/bin:$PATH"

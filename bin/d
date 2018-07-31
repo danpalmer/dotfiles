@@ -14,18 +14,7 @@ done
 BASE_PATH="$(cd "$DIR/.." && pwd)"
 
 source "$BASE_PATH/script/common"
-
 source "$(git --exec-path)/git-sh-setup"
-
-require_clean_work_tree "pull -r"
-
-info "pulling upstream changes"
-git pull -r -q
-
-info "pushing changes"
-git push -q
 
 info "re-bootstrapping"
 exec script/bootstrap
-
-osascript -e 'display notification "Re-initialised dotfiles" with title "bin/d"'

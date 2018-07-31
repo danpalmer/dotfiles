@@ -1,6 +1,0 @@
-if [ -x "$(command -v stack)" ]; then
-    stack setup
-    stack install stylish-haskell
-fi
-
-ln -sf ~/.dotfiles/haskell/stack-config.yml ~/.stack/config.yml

@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+nvm install 8
+nvm use 8
+brew install yarn --without-node
