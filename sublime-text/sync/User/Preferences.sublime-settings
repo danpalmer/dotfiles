@@ -17,7 +17,7 @@
 		"*.pyc",
 		".DS_Store",
 		".python-version",
-		".coverage*",
+		".coverage",
 		"*.sublime-workspace"
 	],
 	"fizzy_classic_tabs": true,
@@ -49,10 +49,11 @@
 		".pytest_cache",
 		"htmlcov",
 		"dist",
+		"build",
 		".vfile"
 	],
 	"font_face": "Fira Code",
-	"font_size": 15,
+	"font_size": 16,
 	"ignored_packages":
 	[
 		"FlowIDE",
