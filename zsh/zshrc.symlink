@@ -51,3 +51,6 @@ fi
 bindkey "[D" backward-word
 bindkey "[C" forward-word
 
+
+# added by travis gem
+[ -f /Users/dan/.travis/travis.sh ] && source /Users/dan/.travis/travis.sh

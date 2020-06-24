@@ -1,7 +1,6 @@
 // SublimeLinter Settings - User
 {
      "lint_mode": "background",
-     "show_panel_on_save": "view",
      "linters": {
          "eslint": {
             "disable": false,
@@ -29,7 +28,8 @@
             "disallow-any": [],
             "excludes": [],
             "python-version": "",
-            "strict-optional-whitelist": []
+            "strict-optional-whitelist": [],
+            "executable": "${folder}/.venv/bin/mypy",
         }
     },
     "syntax_map": {

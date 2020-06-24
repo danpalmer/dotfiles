@@ -12,5 +12,5 @@
         "*/.git/*",
         "*.json"
     ],
-    "node_path": "/Users/dan/.nvm/versions/node/v8.4.0/bin/node"
+    "node_path": "/Users/dan/.nvm/versions/node/v8.11.3/bin/node"
 }

@@ -203,15 +203,60 @@
 			},
 			"key": "5816541bf0789a00f9efcbb7800b50c0",
 			"label": "\\i(1)"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "10000",
+					"step": "10",
+					"stop": "920"
+				},
+				"command": "text_pastry_range",
+				"text": "range 10000 920 10"
+			},
+			"key": "312ce597152f151c2df09fc74cf0818b",
+			"label": "range 10000 920 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "920",
+					"step": "10",
+					"stop": "10000"
+				},
+				"command": "text_pastry_range",
+				"text": "range 920 10000 10"
+			},
+			"key": "29d7be7f0cb36c26cabe72a25deab004",
+			"label": "range 920 10000 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "This is the default",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "This is the default"
+			},
+			"key": "18c9d197f7a6db9895d8f6e8d7fa1eef",
+			"label": "This is the default"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "\\i(1)"
+			"text": "This is the default",
+			"threshold": 3
 		},
-		"command": "text_pastry_step",
-		"text": "\\i(1)"
+		"command": "text_pastry_insert_text",
+		"text": "This is the default"
 	}
 }

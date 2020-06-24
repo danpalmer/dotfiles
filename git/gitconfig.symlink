@@ -2,8 +2,8 @@
         protocol = https
 [user]
 	name = Dan Palmer
-	email = dan@danpalmer.me
-	signingkey = 58F424A7
+	email = dan@thread.com
+	signingkey = A22E9ACE88B83849E98522FE1CBB0EBE58F424A7
 [credential]
         helper = osxkeychain
 [alias]
@@ -41,3 +41,7 @@
 	required = true
 [commit]
 	gpgsign = true
+[pull]
+	rebase = true
+[gpg]
+	program = /usr/local/bin/gpg
