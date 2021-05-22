@@ -1,5 +1,0 @@
-// Settings in here override those in "Elm Language Support/Settings/Elm Language Support.sublime-settings",
-
-{
-    "elm_paths": "/Users/dan/Code/styleme/node_modules/.bin",
-}
