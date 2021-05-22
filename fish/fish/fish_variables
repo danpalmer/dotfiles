@@ -10,6 +10,11 @@ SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_ms:styleme/manage\x2epy\x20shell_plus
 SETUVAR _fish_abbr_mt:styleme/manage\x2epy\x20test
 SETUVAR _fish_abbr_rs:styleme/manage\x2epy\x20runserver\x200\x2e0\x2e0\x2e0\x3a8000
+SETUVAR _fisher_edc_2F_bass_files:/Users/dan/\x2econfig/fish/functions/__bass\x2epy\x1e/Users/dan/\x2econfig/fish/functions/bass\x2efish
+SETUVAR _fisher_fisherman_2F_nvm_files:/Users/dan/\x2econfig/fish/functions/__nvm_run\x2efish\x1e/Users/dan/\x2econfig/fish/functions/node\x2efish\x1e/Users/dan/\x2econfig/fish/functions/npm\x2efish\x1e/Users/dan/\x2econfig/fish/functions/npx\x2efish\x1e/Users/dan/\x2econfig/fish/functions/nvm\x2efish\x1e/Users/dan/\x2econfig/fish/functions/nvm_alias_command\x2efish\x1e/Users/dan/\x2econfig/fish/functions/nvm_alias_function\x2efish\x1e/Users/dan/\x2econfig/fish/functions/yarn\x2efish\x1e/Users/dan/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_fisherman_2F_pyenv_files:/Users/dan/\x2econfig/fish/functions/pyenv\x2efish\x1e/Users/dan/\x2econfig/fish/conf\x2ed/pyenv\x2efish\x1e/Users/dan/\x2econfig/fish/completions/pyenv\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:/Users/dan/\x2econfig/fish/functions/fisher\x2efish\x1e/Users/dan/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1eedc/bass\x1efisherman/nvm\x1efisherman/pyenv
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:\x2d\x2dbold
@@ -41,4 +46,4 @@ SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_user_abbreviations:workon\x20vf\x20workon\x1emm\x20styleme/manage\x2epy\x20migrate\x1ers\x20styleme/manage\x2epy\x20runserver\x200\x2e0\x2e0\x2e0\x3a8000\x1emt\x20styleme/manage\x2epy\x20test\x1ems\x20styleme/manage\x2epy\x20shell_plus
 SETUVAR fish_user_paths:\x60yarn\x1eglobal\x1ebin\x60\x1e/Users/dan/\x2envm\x1e/Users/dan/\x2elocal/bin\x1e/usr/local/opt/gettext/bin\x1e/Applications/Postgres\x2eapp/Contents/Versions/latest/bin
-SETUVAR fisher_dependency_count:bass\x1envm\x1erbenv\x1epyenv
+SETUVAR fisher_dependency_count:rbenv\x1epyenv\x1ebass\x1envm
