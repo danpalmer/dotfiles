@@ -2,6 +2,6 @@
 
 {
 	"settings": {
-		"python.venvPath": "/Users/dan/.pyenv/versions/"
+		"python.pythonPath": "${project_path}/.venv/bin/python"
 	}
 }

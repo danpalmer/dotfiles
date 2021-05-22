@@ -1,0 +1,10 @@
+// SublimeLinter Settings - User
+{
+    "lint_mode": "load_save",
+    "show_panel_on_save": "view",
+    "paths": {
+        "osx": [
+            ".venv/bin",
+        ]
+    }
+}

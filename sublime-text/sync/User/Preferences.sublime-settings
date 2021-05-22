@@ -8,7 +8,7 @@
 	"show_sidebar_button": false,
 	"hide_new_tab_button": true,
 	"drag_text": false,
-	"trim_trailing_white_space_on_save": "not_on_caret",
+	"trim_trailing_white_space_on_save": "all",
 	"ensure_newline_at_eof_on_save": true,
 	"folder_exclude_patterns": [
 		".svn",
@@ -53,5 +53,6 @@
 	],
 	"show_minimap": false,
 	"use_tab_stops": false,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"font_size": 13,
 }

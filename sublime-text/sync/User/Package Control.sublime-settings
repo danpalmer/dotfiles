@@ -3,13 +3,21 @@
 	"installed_packages":
 	[
 		"FileIcons",
+		"JsPrettier",
 		"LSP",
+		"LSP-json",
 		"LSP-pyright",
+		"LSP-typescript",
+		"LSP-yaml",
 		"Package Control",
 		"Remember Minimap Setting",
 		"SideBarEnhancements",
 		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-flake8",
 		"SyncedSideBar",
+		"Trimmer",
 	],
 	"in_process_packages":
 	[
