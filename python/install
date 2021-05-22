@@ -1,2 +1,0 @@
-pip install -q -r python/requirements.txt
-pip3 install -q -r python/requirements.txt

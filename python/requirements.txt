@@ -1,5 +1,0 @@
-flake8
-pep8
-tox
-virtualenvwrapper
-tox-pyenv
