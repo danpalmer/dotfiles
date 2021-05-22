@@ -27,7 +27,6 @@ end
 
 status --is-interactive; and source (rbenv init -|psub)
 
-
 function on-python-diff
     git diff --name-only master | grep ".py\$" | xargs $argv
 end
@@ -40,9 +39,5 @@ test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shel
 function fish_greeting
 end
 
-set -gx GOPATH $HOME/go; set -gx GOROOT $HOME/.go; set -gx PATH $GOPATH/bin $PATH; # g-install: do NOT edit, see https://github.com/stefanmaric/g
-
-
 source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
-set -g fish_user_paths "/usr/local/opt/terraform@0.12/bin" $fish_user_paths
 starship init fish | source
