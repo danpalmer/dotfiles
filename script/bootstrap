@@ -15,12 +15,9 @@ BASE_PATH="$(cd "$DIR/.." && pwd)"
 
 source "$DIR/common"
 
-source "$DIR/git"
 source "$DIR/dotfiles"
 source "$DIR/apps"
-source "$DIR/encryption"
 
-setup_gitconfig
 install_dotfiles
 run_installers
 install_homebrew_dependencies
