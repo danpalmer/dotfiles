@@ -2,7 +2,13 @@
 	"bootstrapped": true,
 	"installed_packages":
 	[
-		"Package Control"
+		"FileIcons",
+		"LSP-pyright",
+		"Package Control",
+		"Remember Minimap Setting",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"SyncedSideBar",
 	],
 	"in_process_packages":
 	[
