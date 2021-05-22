@@ -52,4 +52,6 @@
 		"yarn-error.log",
 	],
 	"show_minimap": false,
+	"use_tab_stops": false,
+	"translate_tabs_to_spaces": true
 }

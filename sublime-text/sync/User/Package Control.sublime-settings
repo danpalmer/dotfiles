@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"FileIcons",
+		"LSP",
 		"LSP-pyright",
 		"Package Control",
 		"Remember Minimap Setting",
