@@ -1,2 +1,0 @@
-info "setting OS X defaults"
-source "$BASE_PATH/osx/set-defaults"
