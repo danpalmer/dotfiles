@@ -8,6 +8,7 @@ brew 'pyenv-virtualenvwrapper'
 brew 'readline'
 brew 'starship'
 brew 'google-cloud-sdk'
+brew 'swiftformat'
 
 tap 'heroku/brew'
 brew 'heroku'

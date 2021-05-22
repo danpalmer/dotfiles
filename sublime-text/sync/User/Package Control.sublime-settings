@@ -2,7 +2,11 @@
 	"bootstrapped": true,
 	"installed_packages":
 	[
+		"Chmod",
+		"Decent Swift Syntax",
 		"FileIcons",
+		"GitHubChecks",
+		"GitHubinator",
 		"JsPrettier",
 		"LSP",
 		"LSP-json",
@@ -16,6 +20,7 @@
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-flake8",
+		"Swift Format",
 		"SyncedSideBar",
 		"Trimmer",
 	],
