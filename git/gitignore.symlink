@@ -6,3 +6,5 @@ stellar.yaml
 .kiteignore
 .venv
 .vfile
+.nova/Configuration.json
+tests/test-export
