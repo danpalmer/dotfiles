@@ -8,7 +8,9 @@ brew 'pyenv-virtualenvwrapper'
 brew 'readline'
 brew 'starship'
 brew 'google-cloud-sdk'
-brew 'terraform'
 
 tap 'heroku/brew'
 brew 'heroku'
+
+tap 'hashicorp/tap'
+brew 'terraform'
