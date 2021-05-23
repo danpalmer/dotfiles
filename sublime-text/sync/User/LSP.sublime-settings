@@ -1,6 +1,7 @@
 // Settings in here override those in "LSP/LSP.sublime-settings"
 {
-    "show_diagnostics_panel_on_save": 1,
+    "show_diagnostics_panel_on_save": 2,
+    "show_symbol_action_links": false,
 
     "clients": {
         "sourcekit-lsp": {

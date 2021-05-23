@@ -52,7 +52,7 @@
 		"yarn-error.log",
 	],
 	"show_minimap": false,
-	"use_tab_stops": false,
+	"use_tab_stops": true,
 	"translate_tabs_to_spaces": true,
-	"font_size": 13,
+	"font_size": 14,
 }

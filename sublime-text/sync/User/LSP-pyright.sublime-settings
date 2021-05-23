@@ -2,6 +2,9 @@
 
 {
 	"settings": {
-		"python.pythonPath": "${project_path}/.venv/bin/python"
-	}
+		"python.pythonPath": "${project_path}/.venv/bin/python",
+		"python.analysis.diagnosticSeverityOverrides": {
+			"reportImplicitStringConcatenation": "none",
+		},
+	},
 }

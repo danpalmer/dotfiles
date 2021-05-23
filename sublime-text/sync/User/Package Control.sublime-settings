@@ -2,11 +2,14 @@
 	"bootstrapped": true,
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"Chmod",
 		"Decent Swift Syntax",
 		"FileIcons",
+		"fish",
 		"GitHubChecks",
 		"GitHubinator",
+		"INI",
 		"JsPrettier",
 		"LSP",
 		"LSP-json",
@@ -16,6 +19,7 @@
 		"Package Control",
 		"Remember Minimap Setting",
 		"SideBarEnhancements",
+		"sublack",
 		"SublimeGit",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
