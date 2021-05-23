@@ -56,4 +56,5 @@
 	"translate_tabs_to_spaces": true,
 	"font_size": 14,
 	"theme": "auto",
+	"color_scheme": "Packages/GitHub Theme/schemes/GitHub Dimmed.sublime-color-scheme",
 }
