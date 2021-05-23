@@ -9,3 +9,4 @@ stellar.yaml
 .nova/Configuration.json
 tests/test-export
 *.sublime-project
+*.sublime-workspace
