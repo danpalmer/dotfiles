@@ -43,3 +43,5 @@ end
 
 source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.fish.inc
 starship init fish | source
+
+eval (env _T_COMPLETE=fish_source t)
