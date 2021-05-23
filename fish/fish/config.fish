@@ -4,8 +4,10 @@ set -U fish_user_paths \
     `yarn global bin` \
     $HOME/.nvm \
     $HOME/.local/bin \
+    $HOME/.cargo/bin \
     /usr/local/opt/gettext/bin \
-    /Applications/Postgres.app/Contents/Versions/latest/bin
+    /Applications/Postgres.app/Contents/Versions/latest/bin \
+    $fish_user_paths
 
 function fish_prompt
     if set -q VIRTUAL_ENV
