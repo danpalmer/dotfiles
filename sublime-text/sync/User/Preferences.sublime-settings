@@ -55,4 +55,5 @@
 	"use_tab_stops": true,
 	"translate_tabs_to_spaces": true,
 	"font_size": 14,
+	"theme": "auto",
 }
