@@ -12,6 +12,7 @@
         "GitHub Theme",
         "GitHubChecks",
         "GitHubinator",
+        "GraphQL",
         "INI",
         "JSONComma",
         "JsPrettier",
@@ -21,20 +22,21 @@
         "LSP-typescript",
         "LSP-yaml",
         "MarkdownEditing",
+        "Origami",
         "Package Control",
-        "Pretty JSON",
         "Remember Minimap Setting",
         "SideBarEnhancements",
         "sublack",
         "SublimeGit",
         "SublimeLinter",
         "SublimeLinter-annotations",
+        "SublimeLinter-contrib-mypy",
         "SublimeLinter-flake8",
         "Swift Format",
         "SyncedSideBar",
-        "Trimmer"
+        "Trimmer",
     ],
     "in_process_packages":
     [
-    ]
+    ],
 }
