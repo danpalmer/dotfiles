@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export EDITOR:code\x20\x2d\x2dwait
+SETUVAR --export EDITOR:subl\x20\x2dw
 SETUVAR HOMEBREW_NO_EMOJI:1
 SETUVAR --export OBJC_DISABLE_INITIALIZE_FORK_SAFETY:YES
 SETUVAR WORKON_HOME:/Users/dan/\x2evirtualenvs/
