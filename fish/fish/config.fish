@@ -6,8 +6,7 @@ set -U fish_user_paths \
     $HOME/.local/bin \
     $HOME/.cargo/bin \
     /usr/local/opt/gettext/bin \
-    /Applications/Postgres.app/Contents/Versions/latest/bin \
-    $fish_user_paths
+    /Applications/Postgres.app/Contents/Versions/latest/bin
 
 function fish_prompt
     if set -q VIRTUAL_ENV
