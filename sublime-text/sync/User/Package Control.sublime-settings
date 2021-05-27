@@ -2,12 +2,12 @@
     "bootstrapped": true,
     "installed_packages":
     [
+        "A File Icon",
         "AdvancedNewFile",
         "BazelSyntax",
         "Chmod",
         "DashDoc",
         "Decent Swift Syntax",
-        "FileIcons",
         "fish",
         "GitHub Theme",
         "GitHubChecks",
