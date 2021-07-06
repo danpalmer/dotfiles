@@ -1,0 +1,35 @@
+{
+    "folders": [
+        {
+            "path": ".",
+            "folder_exclude_patterns": [
+                "db_dumps",
+                "build",
+                "storage",
+                "venv-link"
+            ]
+        }
+    ],
+    "settings": {
+        "LSP": {
+            "LSP-pyright": {
+                "settings": {
+                    "python.analysis.extraPaths": ["contrib/"],
+                    "python.analysis.diagnosticSeverityOverrides": {
+                        "reportGeneralTypeIssues": "none",
+                        "reportUnusedVariable": "none",
+                        "reportMissingImports": "none"
+                    }
+                }
+            }
+        },
+        "sublack": {
+            "black_on_save": false
+        },
+        "JsPrettier": {
+            "prettier_cli_path": "./node_modules/.bin/prettier",
+            "node_path": "/Users/dan/.nvm/versions/node/v10.20.1/bin/node",
+            "prettier_options": {}
+        }
+    }
+}
