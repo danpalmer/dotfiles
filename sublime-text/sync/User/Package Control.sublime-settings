@@ -1,6 +1,6 @@
 {
     "bootstrapped": true,
-    /*"installed_packages":
+    "installed_packages":
     [
         "A File Icon",
         "AdvancedNewFile",
@@ -40,9 +40,9 @@
         "Terrafmt",
         "Terraform",
         "TOML",
-        "Trimmer"
-    ]*/
-    /*"in_process_packages":
+        "Trimmer",
+    ],
+    "in_process_packages":
     [
-    ]*/
+    ],
 }
