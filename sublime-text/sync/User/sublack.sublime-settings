@@ -1,6 +1,0 @@
-{
-    "black_use_blackd": true,
-    "black_blackd_autostart": true,
-    "black_on_save": true,
-    "black_command": "${project_path}/.venv/bin/black",
-}
